@@ -38,6 +38,11 @@ void imprimirPregunta(Pregunta pregunta) {
 char capturarRespuesta() {
     //AGREGAR LA IMPLEMENTACIÓN PARA LEER LA RESPUESTA DEL JUGADOR.
     //NO MODIFIQUES LA FIRMA DE LA FUNCIÓN.
+    printf("\nEscribe tu respuesta: ");
+    char res;//Variable para almacenar la respuesta
+    res=getchar();//Le pide la respuesta al usuario
+    fflush(stdin);
+    return res;//Regresa la respuesta indicada por el usuario
 }
 
 
@@ -52,6 +57,12 @@ char capturarRespuesta() {
 
 int verificarRespuesta(Pregunta pregunta, char respuesta) {
     //AGREGAR LA IMPLEMENTACIÓN PARA VERIFICAR SI RESPONDIÓ BIEN LA PREGUNTA.
+    if(pregunta==pregunta.respuestaCorrecta){
+        return 1;
+    }
+    else{
+        return 0;
+    }
     //NO MODIFIQUES LA FIRMA DE LA FUNCIÓN. 
 }
 

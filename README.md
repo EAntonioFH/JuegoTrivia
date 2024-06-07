@@ -1,5 +1,8 @@
 # JuegoTrivia
 
+oa Tonotos
+adio Tonotos
+
 En esta actividad, cada integrante del equipo elegirá una función que quiera implementar. Para ello, se seguirá el siguiente proceso de trabajo colaborativo.
 
 1. Cada integrante del equipo debe elegir una función que desee implementar.
